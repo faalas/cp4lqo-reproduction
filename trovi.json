@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "name": "cp4lqo-reproduction",
+  "title": "Reproduction of Conformal Prediction for Verifiable Learned Query Optimization (VLDB 2025)",
+  "description": "Reproduction of the study by Liu, H., Giridhara, S., and Sabek, I., VLDB 2025 \n (https://viterbi-web.usc.edu/~sabek/pdf/25_paper_cp4lqo.pdf) which presents a conformal prediction–based framework for verifiable learned query optimization. The original study formulates the verification of learned query optimizers (LQOs) as a conformal prediction problem, enabling probabilistic latency guarantees, runtime violation detection, and robustness under workload distribution shifts. The reproduction focuses on evaluating the CP-based latency bounds, runtime verification mechanisms, and CP-guided plan search across multiple learned query optimizers, including Balsa, Lero, and RTOS, using benchmark workloads such as JOB and TPC-H.",
+  "authors": [
+    {
+      "name": "Faisal Azmi Sirajuddin",
+      "affiliation": "Sepuluh Nopember Institute of Technology"
+    }
+  ],
+  "paper": {
+    "title": "Conformal Prediction for Verifiable Learned Query Optimization",
+    "authors": ["Hanwen Liu", "Shashank Giridhara", "Ibrahim Sabek"],
+    "venue": "VLDB 2025",
+    "url": "https://viterbi-web.usc.edu/~sabek/pdf/25_paper_cp4lqo.pdf"
+  },
+  "repository": {
+    "url": "https://github.com/faalas/cp4lqo-reproduction"
+  },
+  "artifact_type": "reproducibility"
+}
